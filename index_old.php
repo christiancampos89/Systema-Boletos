@@ -16,6 +16,8 @@
 		<div class="container">
 			<div class="form-signin" style="background: #42dea4;">
 				<h2 class="text-center">Área restrita</h2>
+				<h2 class="text-center">so para testar o git</h2>
+				<h2 class="text-center">teste git</h2>
 				<?php
 					if(isset($_SESSION['msg'])){
 						echo $_SESSION['msg'];
