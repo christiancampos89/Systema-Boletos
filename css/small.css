@@ -1,0 +1,138 @@
+/*Documento CSS */
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+header{
+   width: 100%;
+   height: 20px;
+}
+
+.uma-div{
+	position: relative;
+	width: 500px;
+	margin: 0 auto;
+	height: 100%;
+}
+
+.txt{
+	border: 1px solid #00CED1;
+	height:30px;
+	width: 300px;
+	border: thin solid: #f1f1f1;
+}
+
+.txt:focus{
+	border:thin solid:#f00;
+	box-shadow:0 2px 10px #f00;
+	-webkit-box-shadow:0 2px 10px #f00;
+	-moz-box-shadow:0 2px 10px #f00;
+}
+
+.sb{
+	display:block;
+	border: none;
+	width: 300px;
+	height: 50px;
+	margin-top: 10px;
+	cursor: pointer;
+	font: 400 18px Oswald;
+	color:#999;
+}
+
+.sb:hover{
+	background: #09f;
+	color:#fff;
+}
+
+.btnlancar{
+	border: none;
+	width: 120px;
+	height: 40px;
+	cursor: pointer;
+	font: 400 18px Oswald;
+	color:#999;
+	margin: 5px;
+}
+
+.btnlancar:hover{
+	background: #09f;
+	color:#fff;
+}
+
+.sbb{
+	border: none;
+	width: 125px;
+	height: 65px;
+	margin-top: 5px;
+	cursor: pointer;
+	font: 400 18px Oswald;
+	color:#999;
+	padding: 0px;
+	margin:5px;
+	margin-left: 15px;
+}
+
+.sbb:hover{
+	background: #C03;
+	color:#fff;
+}
+
+.sbvoltar{
+	border: none;
+	width: 120px;
+	height: 50px;
+	margin-top: -45px;
+	cursor: pointer;
+	font: 600 36px Oswald;
+	color:#201E1E;
+	float: right;
+}
+
+.sbvoltar:hover{
+	background: #C03;
+	color:#fff;
+}
+
+.sbvgerped{
+	border: none;
+	width: 120px;
+	height: 50px;
+	margin-top: 5px;
+	margin-right: 10px;
+	cursor: pointer;
+	font: 400 18px Oswald;
+	color:#999;
+	float: right;
+}
+
+.sbvgerped:hover{
+	background: #C03;
+	color:#fff;
+}
+
+/*Classes de herança*/
+.bradius{
+	border-radius: 6px;
+	-webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+}	
+
+.fleft{
+	float: left;
+}
+
+.fright{
+	float:right;
+}
+
+/*Multiplos Estilos*/
+
+.txt,.txt:focus,.sb:hover, .sbvoltar, .sbvgerped:hover{
+	transition:all 0.5s linear;
+	-webkit-transition:all 0.5s linear;
+	-moz-transition:all 0.5s linear;
+
+}

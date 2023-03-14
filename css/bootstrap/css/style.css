@@ -1,0 +1,449 @@
+*{
+	margin:0;
+	padding:0;
+	outline: none;
+	list-style: none;
+}
+
+body{
+   font:300 16px Oswald;
+
+}
+
+
+/*Documento CSS */
+
+.main_header{
+  margin: 0 auto;
+  padding: 1%;
+  background-color: #FFFAF0;
+}
+
+.container{
+  float: left;
+  width: 100%;
+}
+
+.content{
+  width: 95%;
+  padding: 1.9875%;
+}
+
+.uma-div{
+	position: relative;
+	width: 1280px;
+	margin: 0 auto;
+	height: 100%;
+}
+
+#frmlogin{
+   width: 90%;
+   height: 622px;
+   border: 10px solid #333333;
+}
+
+#frmcadastrousuario{
+   width:55%;
+   height:732px;
+   margin:0 auto;
+   position: relative;
+   top: 80px; 
+   border: 10px solid #333333;
+   padding:10px;
+   padding-right: 70px;
+   margin-top: -65px;
+}
+
+#frmfarmacia{
+   width:55%;
+   height:1120px;
+   margin:0 auto;
+   position: relative;
+   top: 80px; 
+   border: 10px solid #333333;
+   padding:10px;
+   padding-right: 70px;
+   margin-top: -65px;
+}
+
+#frmfornecedor{
+   width:55%;
+   height:560px;
+   margin:0 auto;
+   position: relative;
+   top: 80px; 
+   border: 10px solid #333333;
+   padding:10px;
+   padding-right: 70px;
+   margin-top: -65px;
+}
+
+#frmrecuperasenha{
+   width:85%;
+   height:85%;
+   margin:0 auto;
+   position: relative;
+   top: 80px; 
+   border: 10px solid #333333;
+   padding:10px;
+   padding-right: 70px;
+   margin-top: -65px;
+}
+
+.acomodar{
+	width:650px;
+	height: 650px;
+	padding: 13px;
+}
+
+.msg{
+	padding-top: 20px;
+}
+
+.msggerped{
+	padding-top: 5px;
+}
+
+#frmlogin label{
+	display: block;
+	padding-top: 5px;
+	font: 600 300% Oswald;
+	text-align: center;
+}
+
+#frmlogin input{
+  font: 600 300% Oswald;
+}
+
+#frmcadastrousuario label{
+	display: block;
+	padding-top: 5px;
+	padding-bottom: 7px;
+	font: 400 18px Oswald;
+}
+
+#frmcadastrousuario fieldset{
+	display: block;
+	padding-top: 5px;
+	padding-bottom: 7px;
+	font: 400 18px Oswald;
+}
+
+#frmcadastro usuario #minhaDiv label {
+	font: 400 18px Oswald;
+}
+
+.txt{
+	border: 1px solid #00CED1;
+	height:30px;
+	width: 300px;
+	border: thin solid: #f1f1f1;
+}
+
+.txt:focus{
+	border:thin solid:#f00;
+	box-shadow:0 2px 10px #f00;
+	-webkit-box-shadow:0 2px 10px #f00;
+	-moz-box-shadow:0 2px 10px #f00;
+}
+
+.txtlogin{
+	border: 3px solid #00CED1;
+	height: 3.854%;
+	width: 46%;
+	border: thin solid: #f1f1f1;
+	text-align: center;
+	font: 400 18px Oswald;
+}
+
+.txtlogin:focus{
+	border:thin solid:#f00;
+	box-shadow:0 2px 10px #f00;
+	-webkit-box-shadow:0 2px 10px #f00;
+	-moz-box-shadow:0 2px 10px #f00;
+}
+
+.sb{
+	display:block;
+	border: none;
+	width: 350px;
+	height: 85px;
+	margin-top: 10px;
+	cursor: pointer;
+	font: 600 25px Oswald;
+	color:#00BFFF;
+}
+
+.sb:hover{
+	background: #09f;
+	color:#fff;
+}
+
+.btnlancar{
+	border: none;
+	width: 120px;
+	height: 40px;
+	cursor: pointer;
+	font: 400 18px Oswald;
+	color:#999;
+	margin: 5px;
+}
+
+.btnlancar:hover{
+	background: #09f;
+	color:#fff;
+}
+
+.sbb{
+	border: none;
+	width: 125px;
+	height: 65px;
+	margin-top: 5px;
+	cursor: pointer;
+	font: 400 18px Oswald;
+	color:#999;
+	padding: 0px;
+	margin:5px;
+	margin-left: 15px;
+}
+
+.sbb:hover{
+	background: #C03;
+	color:#fff;
+}
+
+.sbvoltar{
+   border: none;
+   width: 90px;
+   height: 30px;
+   margin-top: 5px;
+   cursor: pointer;
+   font: 600 30px Oswald;
+   color:#fff;
+   float: right;
+   background-color: #189FDA;
+}
+
+.sbvoltar:hover{
+	background: #C03;
+	color:#fff;
+}
+
+.sbsenha{
+   border: none;
+   width: 325px;
+   height: 35px;
+   margin-top: 5px;
+   cursor: pointer;
+   font: 600 26px Oswald;
+   color:#fff;
+   float: left;
+   background-color: #189FDA;
+}
+
+.sbsenha:hover{
+	background: #C03;
+	color:#fff;
+}
+
+.sbvgerped{
+	border: none;
+	width: 120px;
+	height: 50px;
+	margin-top: 5px;
+	margin-right: 10px;
+	cursor: pointer;
+	font: 400 18px Oswald;
+	color:#999;
+	float: right;
+}
+
+.sbvgerped:hover{
+	background: #C03;
+	color:#fff;
+}
+
+/*Classes de herança*/
+.bradius{
+	border-radius: 6px;
+	-webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+}	
+
+.fleft{
+	float: left;
+}
+
+.lblmesg{
+   font: 600 18px Oswald;
+   color: #201E1E;
+
+}
+
+.fright{
+	float:right;
+}
+
+/*Multiplos Estilos*/
+
+.txt,.txt:focus,.sb:hover, .sbvoltar, .txtt,.txtt:focus, .sbvgerped:hover{
+	transition:all 0.5s linear;
+	-webkit-transition:all 0.5s linear;
+	-moz-transition:all 0.5s linear;
+
+}
+
+#geral{
+	background-image: url("../imagens/fundoprincipal.png");
+	width: 1280px;
+	height: 1024px;
+	margin-left: 40px;
+    margin-right:40px;
+}
+
+#gerall{
+	background-image: url("../imagens/fundorodada.png");
+	width: 1280px;
+	height: 1024px;
+	margin-left: 0px;
+    margin-right: 0px;
+}
+
+#opcoes{
+	width: 1280px;
+	height: 65px;
+	padding-top: 44px;
+} 
+
+.lblhome{
+	padding-top: 15px;
+	font: 400 32px Oswald;
+	color:#fff;	
+}
+
+.labelcadusu{
+	margin-top: 15px;
+	margin-bottom: 35px;
+   font: 400 32px Oswald;
+   color:#C03;	
+}
+
+.logo{
+	margin-left: 55px;
+}
+
+.input{
+    height: 30px; 
+    width: 50px;	
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    box-shadow: 1px 1px 2px #333333;    
+    -moz-box-shadow: 1px 1px 2px #333333;
+    -webkit-box-shadow: 1px 1px 2px #333333;
+    background: #cccccc; 
+    border:1px solid #000000;
+}
+table#tablelanc{
+	border: 3px solid #000000;
+	vertical-align: middle;
+
+
+}
+
+table#tablelanc td{
+	padding: 10px;
+	border: 1px solid #000000;	
+}
+.txtcompra{
+	height: 33px; 
+    width: 84px;	
+    border-radius:4px
+    background-color: #189FDA;
+}
+.optloja{
+	height: 200px; 
+    width: 200px;	
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    box-shadow: 1px 1px 2px #333333;    
+    -moz-box-shadow: 1px 1px 2px #333333;
+    -webkit-box-shadow: 1px 1px 2px #333333;
+    background: #cccccc; 
+    border:1px solid #000000;
+
+}
+ 
+textarea{
+	height: 10px;
+    border: 1px solid #000000;
+    background:#cccccc;
+    width:70px;
+    border-radius:2px;
+    -moz-border-radius:4px;	
+    -webkit-border-radius:4px;
+    box-shadow: 1px 1px 2px #333333;    
+    -moz-box-shadow: 1px 1px 2px #333333;
+    -webkit-box-shadow: 1px 1px 2px #333333;
+ }
+ 
+input[type=text]:hover, textarea:hover{ 
+         background: #ffffff; border:1px solid #990000;
+}
+ 
+input[type=submit]{
+        background:#006699;
+        color:#ffffff;
+}
+#tabelass{
+	border: 1px solid #606060;
+}
+
+#tabelass td{
+	border: 1px solid #606060;
+}
+
+.formContato {
+   width: 100%;
+   text-align: center;  
+}  
+.formContato input {  
+   width: 90%;  
+   margin-left: 10px;  
+   margin-right: 10px;  
+}  
+.formContato textarea {  
+   width: 90%;  
+   margin-left: 10px;  
+   margin-right: 10px;  
+}  
+.pgContato input {  
+   padding-left: 20px;  
+   color: #292929;  
+   font-size: 25px;
+   border: 1px solid #201E1E;  
+   -moz-border-radius: 5px;  
+   -webkit-border-radius: 5px;  
+   border-radius: 5px;  
+   height: 58px;  
+   margin-bottom: 20px;  
+   border-bottom: 1px solid #ccc;  
+   border-left: 1px solid #ccc;  
+}  
+
+.pgContato textarea { 
+  padding: 20px;
+   color: #292929;  
+   font-size: 18px;  
+   background-color: #E9E9E9;  
+   border: 1px solid #E9E9E9;  
+   -moz-border-radius: 5px;  
+   -webkit-border-radius: 5px;  
+   border-radius: 5px;  
+   height: 200px;  
+   margin-bottom: 20px;  
+   border-bottom: 1px solid #ccc;  
+   border-left: 1px solid #ccc;
+
+}
