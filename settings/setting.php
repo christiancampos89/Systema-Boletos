@@ -4,14 +4,6 @@
 
 //Dados do servidor
 
-//$host = "mysql.coperfinanceiro.kinghost.net";
-
-//$login = "coperfinanceir02";
-
-//$senha = "sede4085";
-
-//$banco = "coperfinanceir02";
-
 $host = "localhost";
 
 $login = "root";
